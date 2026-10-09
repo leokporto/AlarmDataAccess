@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Alarms.AdoNet\Alarms.AdoNet.csproj" />
+    <ProjectReference Include="..\..\src\Alarms.Dapper\Alarms.Dapper.csproj" />
+    <ProjectReference Include="..\..\src\Alarms.EfCore\Alarms.EfCore.csproj" />
+    <ProjectReference Include="..\..\src\Alarms.Migrations\Alarms.Migrations.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit.v3" />
+    <PackageReference Include="Testcontainers.MsSql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+</Project>

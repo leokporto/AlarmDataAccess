@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Alarms.AdoNet/Alarms.AdoNet.csproj" />
+    <Project Path="src/Alarms.Core/Alarms.Core.csproj" />
+    <Project Path="src/Alarms.Dapper/Alarms.Dapper.csproj" />
+    <Project Path="src/Alarms.EfCore/Alarms.EfCore.csproj" />
+    <Project Path="src/Alarms.Migrations/Alarms.Migrations.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Alarms.Tests/Alarms.Tests.csproj" />
+  </Folder>
+</Solution>
